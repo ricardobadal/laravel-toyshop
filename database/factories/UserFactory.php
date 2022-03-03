@@ -18,8 +18,8 @@ class UserFactory extends Factory
     public function definition()
     {
         return [
-            'gender'=> $this->faker->firstNameMale(),
-            'insertion' => $this->faker->name(),
+            'gender'=> $this->faker->randomLetter(),
+            'insertion' => 'von',
             'first_name' => $this->faker->firstName(),
             'last_name' => $this->faker->lastName(),
             'birth_date' => $this->faker->date(),
