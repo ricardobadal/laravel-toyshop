@@ -15,7 +15,8 @@
                     <h3> name: {{ $product['name'] }}
                         <ul>
                             <li>id: {{ $product['id'] }}</li>
-                            <li>price: {{ $product['price'] }}</li>
+                            <li>Price: {{ $product['price'] }}</li>
+                            <p> Click <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">here</a> for More info about our products 
                         </ul>
                     <h3>
                 </div>
