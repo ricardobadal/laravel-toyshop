@@ -16,10 +16,11 @@ return new class extends Migration
         //
         Schema::create('products', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('product_category_id');
+            $table->foreignId('product_category_id')->default('1');
             $table->string('productname');
             $table->integer('price');
             $table->enum('media_type', ['image', 'video'])->default('image');
+            // $table->string('file_name');
             $table->boolean('new');
             $table->boolean('sale');
             $table->string('color');
