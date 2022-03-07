@@ -28,16 +28,16 @@ class HomeController extends Controller
 
     public function shop()
     {
-        return view('Shop');
+        return view('shop');
     }
 
     public function about()
     {
-        return view('About');
+        return view('about');
     }
 
     public function contact()
     {
-        return view('Contact');
+        return view('contact');
     }
 }
