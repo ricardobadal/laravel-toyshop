@@ -114,22 +114,21 @@
                 </li>
             @endguest
         
-            <li class="nav-item">       
-                <shopping-cart ref="shoppingCart"></shopping-cart>                        
-                                                                                                        
-                </li>                   
-                </ul>
-
-
-                <form class="d-flex">
-                    <input class="form-control me-1 text-style" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn searchbutton text-style" type="submit">Search</button>
-                </form>
 
     </div>
+
+    <ul>
+        <li>
+        <form>
+        <input class="form-control me-1 text-style" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn searchbutton text-style" type="submit">Search</button>
+    </form>
+        </li>
+    </ul>
 </div>
 </nav>
 
+{{-- search needs to go to the right with the shoppingbasket. Searchform needs to have a magnifier instead of 'searchtext'  --}}
 
 
               
