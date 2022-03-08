@@ -1,0 +1,12 @@
+.register-container {
+    display: block;
+    text-align:center;
+}
+
+
+.register-form {
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+}

@@ -1,0 +1,29 @@
+.buttonstyle {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.7;
+    font-weight: lighter;
+}
+
+.submit-button {
+    box-shadow: 0.5em 0.5em 1em rgba(102, 97, 101, 0.911);
+    opacity: 0.6;
+}
+
+button {
+    /* border-radius: 10%; */
+    box-shadow: 0.5em 0.5em 1em rgba(102, 97, 101, 0.911);
+    opacity: 0.7;
+}
+
+.nav-button {
+    font-size: 1.08em;
+    opacity: 0.8;
+}
+
+
+.disabledButton {
+    background-color: rgb(175, 175, 175);
+}
+
+
+
