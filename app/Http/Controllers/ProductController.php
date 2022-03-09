@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Product;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class ProductController extends Controller
 {
@@ -23,12 +24,15 @@ class ProductController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
     public function index()
     {
-        return view('products.index', [
-            'products' => self::getData(),
-        ]);
-    } 
+        $products = DB::select('select * from products');
+        return view('products.index', ['products'=>$products]);
+    }
+
+
+
 
     /**
      * Show the form for creating a new resource.

@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url(https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Handlee&display=swap);
 @charset "UTF-8";
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
@@ -11285,4 +11287,306 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.buttonstyle {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  opacity: 0.7;
+  font-weight: lighter;
+}
+
+.submit-button {
+  box-shadow: 0.5em 0.5em 1em rgba(102, 97, 101, 0.911);
+  opacity: 0.6;
+}
+
+button {
+  /* border-radius: 10%; */
+  box-shadow: 0.5em 0.5em 1em rgba(102, 97, 101, 0.911);
+  opacity: 0.7;
+}
+
+.nav-button {
+  font-size: 1.08em;
+  opacity: 0.8;
+}
+
+.disabledButton {
+  background-color: #afafaf;
+}
+
+.cart {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 400px;
+  z-index: 1010;
+  opacity: 0.9;
+  right: 0;
+  float: right;
+  display: none;
+  color: #271d1d;
+}
+
+.basket {
+  cursor: pointer;
+}
+
+.bi-basket3 {
+  opacity: 0.4;
+  color: black;
+}
+
+.long-text {
+  line-height: 1.6;
+  place-content: center;
+}
+
+.header-text {
+  font-size: 2em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  opacity: 0.65;
+  font-weight: lighter;
+}
+
+.header {
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  background-image: url(/public/images/webshop/pliushevye-igrushki-zveri-belyi-fon.jpg);
+  opacity: 0.7;
+}
+
+.footer {
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  background-image: url(/public/images/webshop/pliushevye-igrushki-zveri-belyi-fon.jpg);
+  opacity: 0.7;
+}
+
+#headerlink {
+  text-decoration: none;
+}
+
+.card {
+  border-radius: 10%;
+  box-shadow: 0.5em 0.5em 1em rgba(102, 97, 101, 0.911);
+}
+
+.card-img-top {
+  border-radius: 10%;
+  width: 100%;
+  height: 15rem;
+}
+
+.text-style {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  line-height: var(--bs-body-line-height);
+  opacity: 0.5;
+  margin-top: 5%;
+}
+
+.product-col {
+  padding-bottom: 50%;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.content {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+.cart-icon {
+  cursor: pointer;
+}
+
+.layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.8;
+  display: none;
+  z-index: 1000;
+}
+
+a:link,
+a:active,
+a:visited {
+  color: #000000;
+}
+
+.error-message {
+  color: white;
+}
+
+.center-box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 15;
+}
+
+.register-form {
+  /* width: 50%;
+  background-color: rgba(245, 234, 234, 0.7);
+  padding: 50px;
+  border-radius: 10px;
+  color: white; */
+}
+
+.register-form .alert-danger {
+  color: #e787e8;
+  background-color: #da8686;
+  border-color: #eedbdb;
+  opacity: 0.6;
+}
+
+#register-message {
+  display: none;
+}
+
+#login-message {
+  display: none;
+  text-align: right;
+  background-color: darkmagenta;
+  opacity: 0.7;
+  padding: 7px;
+  border: 1px solid magenta;
+  border-radius: 0.3em;
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.user-info {
+  text-align: right;
+}
+
+.user-info img:first-child {
+  width: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.profile-options {
+  background-color: rgba(21, 19, 19, 0.7);
+  padding: 20px;
+  color: white;
+  border-right: 1px solid #460b46;
+  width: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .profile-options {
+    width: 250px;
+    height: 100vh;
+  }
+
+  .profile-options-inner {
+    margin-top: 50px;
+  }
+}
+.profile-section ul {
+  padding: 0;
+}
+
+.profile-section li {
+  list-style-type: none;
+  font-size: 1.1em;
+  height: 30px;
+  padding-left: 20px;
+  line-height: 30px;
+}
+
+.profile-section li a {
+  display: block;
+}
+
+.profile-section li a:hover {
+  text-decoration: none;
+}
+
+.profile-section li:hover {
+  background-color: darkmagenta;
+  opacity: 0.8;
+  border-radius: 0.3em;
+  cursor: pointer;
+}
+
+input[type=text], input[type=email] {
+  width: 100%;
+}
+
+.error-href {
+  color: #000000 !important;
+  text-decoration: underline !important;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.cart {
+  opacity: 0.4;
+  color: black;
+}
+
+.color-box {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+}
+
+.outOfStock {
+  text-decoration: line-through;
+}
+
+.shopping-cart {
+  opacity: 0.7;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.0001) !important;
+}
+
+.register-container {
+  display: block;
+  text-align: center;
+}
+
+.register-form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }
