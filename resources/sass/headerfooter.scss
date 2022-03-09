@@ -1,0 +1,37 @@
+.header-text {
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.65;
+    font-weight: lighter;
+   
+}
+
+
+.header {
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    background-image: url(/public/images/webshop/pliushevye-igrushki-zveri-belyi-fon.jpg);
+    opacity: 0.7;
+
+}
+
+
+.footer { 
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    background-image: url(/public/images/webshop/pliushevye-igrushki-zveri-belyi-fon.jpg);
+    opacity: 0.7;
+}
+
+
+#headerlink {
+    text-decoration: none;
+}
