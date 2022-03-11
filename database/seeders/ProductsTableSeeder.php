@@ -111,7 +111,7 @@ class ProductsTableSeeder extends Seeder
             'product_category_id' => ('1'),
             'new' => (false),
             'sale' => (false),
-            'file_name'=> ('plush elephant.jpg'),
+            'file_name'=> ('plushelephant.jpg'),
             'color' =>('grey'),
             'stock' => ('100'),
             'details' => ('plush elephant'),
@@ -125,10 +125,10 @@ class ProductsTableSeeder extends Seeder
             'product_category_id' => ('1'),
             'new' => (false),
             'sale' => (false),
-            'file_name'=> ('plushtiger.jpg'),
+            'file_name'=> ('tiger.jpg'),
             'color' =>('yellow'),
             'stock' => ('100'),
-            'details' => ('yellow plush duckling'),
+            'details' => ('plush tiger'),
             'created_at' => now()->format('Y-m-d H:i:s')
         ]);
 

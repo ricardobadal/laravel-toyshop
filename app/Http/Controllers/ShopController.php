@@ -19,8 +19,6 @@ class ShopController extends Controller
 
   
 
-
-
     public function show() {
         {
             return view('product');
