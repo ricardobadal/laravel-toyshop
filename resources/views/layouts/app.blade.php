@@ -17,8 +17,9 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
+    
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('/app.scss') }}" rel="stylesheet">
+   
 
   
 
@@ -46,7 +47,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
     <a class="navbar-brand" href="/home">
-    <img src="/public/images/webshop/logo_small_icon_only.png" alt="" width="100" height="100">
+    <img src="logo_small_icon_only.png" alt="" width="100" height="100">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -123,8 +124,9 @@
 
     {{-- search needs to go to the right with the shoppingbasket. Searchform needs to have a magnifier instead of 'searchtext'  --}}
 
-    <li class="nav-item">       
-        <shopping-cart ref="shoppingCart"></shopping-cart>                                                                                                                 
+    <li class="nav-item">    
+        cart   
+        {{-- <shopping-cart ref="shoppingCart"></shopping-cart>                                                                                                                  --}}
     </li>    
 
         <ul>
@@ -148,9 +150,18 @@
         </main>
     </div>
 
-    <div>
-        <footer>This is our Footer</footer>
-    </div>
+    <div class="container-fluid">
+        <div class="row mt-5">
+            <div class="col footer p-3 text-center">
+                <footer>
+
+                    <p> &copy; Copyright 2022 by ToyShop. All rights reserved.</p>
+
+
+                </footer>
+            </div>
+        </div>
+</div>
 </body>
 </html>
 
