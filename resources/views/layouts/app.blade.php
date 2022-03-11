@@ -17,8 +17,9 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
+    
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('/app.scss') }}" rel="stylesheet">
+   
 
   
 
@@ -123,8 +124,9 @@
 
     {{-- search needs to go to the right with the shoppingbasket. Searchform needs to have a magnifier instead of 'searchtext'  --}}
 
-    <li class="nav-item">       
-        <shopping-cart ref="shoppingCart"></shopping-cart>                                                                                                                 
+    <li class="nav-item">    
+        cart   
+        {{-- <shopping-cart ref="shoppingCart"></shopping-cart>                                                                                                                  --}}
     </li>    
 
         <ul>
