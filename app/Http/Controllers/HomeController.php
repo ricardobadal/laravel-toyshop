@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Product;
+use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
@@ -21,23 +23,13 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index()
-    {
-        return view('welcome');
-    }
 
-    public function shop()
-    {
-        return view('shop');
+        public function index() {
+            {
+                $products = DB::select('select * from products');
+                return view('welcome', ['products'=>$products]);
+            }
+        }
+    
     }
-
-    public function about()
-    {
-        return view('about');
-    }
-
-    public function contact()
-    {
-        return view('contact');
-    }
-}
+    

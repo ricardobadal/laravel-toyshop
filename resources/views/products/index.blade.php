@@ -12,11 +12,12 @@
         <div class="container">
             <div class="row mx-auto sm:px-6 lg:px-8">
                 <div class="col-6 shadow">
-                    <h3> name: {{ $product['name'] }}
+                    <h3> 
+                        {{ $product->productname }}
                         <ul>
-                            <li>id: {{ $product['id'] }}</li>
-                            <li>Price: {{ $product['price'] }}</li>
-                            <p> Click <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">here</a> for More info about our products 
+                            <li>id: {{ $product->id }}</li>
+                            <li>Price: {{ $product->price }}</li>
+                            <img class="product-image" src="/images/webshop/{{ $product->file_name }}" width="100%">
                         </ul>
                     <h3>
                 </div>
