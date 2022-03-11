@@ -12,10 +12,6 @@
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
 
-        <!-- Fonts -->
-        <link rel="dns-prefetch" href="//fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
         <!-- Styles -->
         
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -43,7 +39,7 @@
                     <li class="nav-item dropdown"><a class="nav-link nav-button dropdown-toggle" href="{{ route('home.shop') }}" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item button-style text-style" href="{{ route('products.index') }}">Products</a></li>
-                    <li><a class="dropdown-item button-style text-style" href="/home/productsale">Sale</a></li>
+                    <li><a class="dropdown-item button-style text-style" href="#">Sale</a></li>
                 </ul>
                     <li class="nav-item"><a class="nav-link nav-button" href="{{ route('home.contact') }}">Contact</a></li>
                     <li class="nav-item"><a class="nav-link nav-button" href="{{ route('home.about') }}">About Us</a></li>
@@ -71,9 +67,14 @@
 
                     <li class="nav-item">cart {{-- <shopping-cart ref="shoppingCart"></shopping-cart> --}} </li>    
                 <ul>
+                
                     <li>
-                        <form><input class="form-control me-1 text-style" type="search" placeholder="Search" aria-label="Search"><button class="btn searchbutton text-style" type="submit">Search</button>
-                        </form>
+                        <div class="input-group rounded mt-4">
+                            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                            <span class="input-group-text border-0" id="search-addon">
+                              <i class="fas fa-search"></i>
+                            </span>
+                          </div>
                     </li>
                 </ul>
             </div>
@@ -86,15 +87,79 @@
         </main>
     </div>
 
-        <div class="container-fluid">
-            <div class="row mt-5">
-                <div class="col footer p-3 text-center">
-                    <footer>
-                        <p> &copy; Copyright 2022 by ToyShop. All rights reserved.</p>
-                    </footer>
-                </div>
-            </div>
+
+ 
+   
+
+<hr class="hr-or">
+<footer class="nb-footer">
+<div class="container">
+<div class="row">
+
+
+<div class="col-md-3 col-sm-6">
+<div class="footer-info-single">
+<h2 class="title">Help Center</h2>
+<ul class="list-unstyled">
+    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> How to Pay</a></li>
+    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> FAQ's</a></li>
+    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> About Us</a></li>
+    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> About Us</a></li>
+
+</ul>
+</div>
+</div>
+
+<div class="col-md-3 col-sm-6">
+<div class="footer-info-single">
+<h2 class="title">Customer information</h2>
+<ul class="list-unstyled">
+    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> About Us</a></li>
+    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> FAQ's</a></li>
+    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> Sustainability</a></li>
+    <li><a href="" title=""><i class="fa fa-angle-double-right"></i> Contact Us</a></li>
+
+</ul>
+</div>
+</div>
+
+<div class="col-md-3 col-sm-6">
+<div class="footer-info-single">
+<h2 class="title">Security & privacy</h2>
+<ul class="list-unstyled">
+    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> Terms Of Use</a></li>
+    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> Privacy Policy</a></li>
+    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> Test</a></li>
+</ul>
+</div>
+</div>
+
+<div class="col-md-3 col-sm-6">
+<div class="footer-info-single">
+    <ul class="list-inline text-center">
+    <h2 class="title">Let's connect!</h2>
+    <li><a href="#" title=""><i class="fa-brands fa-instagram"></i></a></li>
+    <li><a href="#" title=""><i class="fa-brands fa-twitter"></i></a></li>
+    <li><a href="#" title=""><i class="fa-brands fa-facebook"></i></a></li>
+
+    </div>
+    </ul>
+</div>
+
+
+
+    <div class="container">
+        <div class="row">
+        <div class="col">
+        <p class="text-center">Copyright © 2022. ToyShop B.V.</p>
         </div>
+        </div>
+        </div>
+        </div>
+
+</footer>
+
+
 
     </body>
 </html>

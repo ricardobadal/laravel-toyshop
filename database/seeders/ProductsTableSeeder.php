@@ -20,7 +20,7 @@ class ProductsTableSeeder extends Seeder
             'price' =>('22.99'),
             'product_category_id' => ('1'),
             'new' => (false),
-            'sale' => (false),
+            'sale' => (true),
             'file_name'=> ('shroom.png'),
             'color' =>('yellow'),
             'stock' => ('100'),

@@ -30,3 +30,4 @@ Route::get('/contact', [ContactController::class, 'index'])->name('home.contact'
 
 //ProductController Routes
 Route::resource('/products', ProductController::class);
+

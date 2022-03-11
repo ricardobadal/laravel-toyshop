@@ -3,13 +3,13 @@
 @section('content')
 @section('title', 'product')
 
-<h1>product specific page</h1>
+<h1 class="text-center mt-3 mb-2 buttonstyle long-text">Product specific</h1>
 
 <div class="container">
     <div class="row">
         @foreach ($products as $product)
         <div class="col-md-3 pt-3 p-2 product-col">
-            <div class="card shadow">
+            <div class="card">
                 <img src="/images/webshop/{{ $product->file_name }}" class="card-img-top" alt="...">
                 <div class="card-body text-center">
                     <h5 class="card-title text-style">{{ $product->productname }}</h5>
