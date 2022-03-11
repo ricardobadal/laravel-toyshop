@@ -3,7 +3,7 @@
 @section('content')
 @section('title', 'product')
 
-<h1>product specific page</h1>
+<h1 class="text-center mt-3 mb-2 buttonstyle long-text">Product specific</h1>
 
 <div class="container">
     <div class="row">
