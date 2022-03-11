@@ -11356,7 +11356,7 @@ button {
   /* Do not repeat the image */
   background-size: cover;
   /* Resize the background image to cover the entire container */
-  background-image: url(/images/webshop/headerfooterimage.jpg);
+  background-image: url(/images/headerfooterimage.jpg);
   opacity: 0.7;
 }
 
@@ -11367,7 +11367,7 @@ button {
   /* Do not repeat the image */
   background-size: cover;
   /* Resize the background image to cover the entire container */
-  background-image: url(/images/webshop/headerfooterimage.jpg);
+  background-image: url(/images/headerfooterimage.jpg);
   opacity: 0.7;
 }
 
@@ -11377,13 +11377,10 @@ button {
 
 .card {
   border-radius: 10%;
-  box-shadow: 0.5em 0.5em 1em rgba(102, 97, 101, 0.911);
 }
 
 .card-img-top {
   border-radius: 10%;
-  width: 100%;
-  height: 15rem;
 }
 
 .text-style {

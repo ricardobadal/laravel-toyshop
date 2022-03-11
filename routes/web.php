@@ -25,7 +25,6 @@ Auth::routes();
 //HomeController Routes
 Route::get('/', [HomeController::class, 'index'])->name('home.index');
 Route::get('/shop', [ShopController::class, 'index'])->name('home.shop');
-
 Route::get('/about', [AboutController::class, 'index'])->name('home.about');
 Route::get('/contact', [ContactController::class, 'index'])->name('home.contact');
 
