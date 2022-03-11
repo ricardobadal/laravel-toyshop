@@ -12,10 +12,6 @@
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
 
-        <!-- Fonts -->
-        <link rel="dns-prefetch" href="//fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
         <!-- Styles -->
         
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -71,9 +67,14 @@
 
                     <li class="nav-item">cart {{-- <shopping-cart ref="shoppingCart"></shopping-cart> --}} </li>    
                 <ul>
+                
                     <li>
-                        <form><input class="form-control me-1 text-style" type="search" placeholder="Search" aria-label="Search"><button class="btn searchbutton text-style" type="submit">Search</button>
-                        </form>
+                        <div class="input-group rounded">
+                            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                            <span class="input-group-text border-0" id="search-addon">
+                              <i class="fas fa-search"></i>
+                            </span>
+                          </div>
                     </li>
                 </ul>
             </div>
