@@ -47,7 +47,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
     <a class="navbar-brand" href="/home">
-    <img src="/public/images/webshop/logo_small_icon_only.png" alt="" width="100" height="100">
+    <img src="logo_small_icon_only.png" alt="" width="100" height="100">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
