@@ -99,10 +99,10 @@
 <div class="footer-info-single">
 <h2 class="title footer-font-weight">Help Center</h2>
 <ul class="list-unstyled">
-    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> Test</a></li>
-    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> FAQ's</a></li>
-    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> About Us</a></li>
-    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> About Us</a></li>
+    <li><a href="#" title=""><i class=></i> Test</a></li>
+    <li><a href="#" title=""><i class=></i> FAQ's</a></li>
+    <li><a href="#" title=""><i class=></i> About Us</a></li>
+    <li><a href="#" title=""><i class=></i> About Us</a></li>
 
 </ul>
 </div>
@@ -112,10 +112,10 @@
 <div class="footer-info-single">
 <h2 class="title footer-font-weight">Customer information</h2>
 <ul class="list-unstyled">
-    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> About Us</a></li>
-    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> FAQ's</a></li>
-    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> Sustainability</a></li>
-    <li><a href="" title=""><i class="fa fa-angle-double-right"></i> Contact Us</a></li>
+    <li><a href="#" title=""><i class=></i> About Us</a></li>
+    <li><a href="#" title=""><i class=></i> FAQ's</a></li>
+    <li><a href="#" title=""><i class=></i> Sustainability</a></li>
+    <li><a href="" title=""><i class=></i> Contact Us</a></li>
 
 </ul>
 </div>
@@ -125,9 +125,9 @@
 <div class="footer-info-single">
 <h2 class="title footer-font-weight">Security & privacy</h2>
 <ul class="list-unstyled">
-    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> Terms Of Use</a></li>
-    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> Privacy Policy</a></li>
-    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> Test</a></li>
+    <li><a href="#" title=""><i class=></i> Terms Of Use</a></li>
+    <li><a href="#" title=""><i class=></i> Privacy Policy</a></li>
+    <li><a href="#" title=""><i class=></i> Test</a></li>
 </ul>
 </div>
 </div>
