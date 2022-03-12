@@ -30,7 +30,7 @@
                 </div>
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="/home"><img src="logo_small_icon_only.png" alt="" width="100" height="100"></a>
+            <a class="navbar-brand" href="{{ url('/') }}"><img src="logo_small_icon_only.png" alt="" width="100" height="100"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -89,19 +89,17 @@
 
 
  
-   
-
-<hr class="hr-or">
-<footer class="nb-footer">
+  <hr> 
+<footer id="footerimage" class="nb-footer">
 <div class="container">
 <div class="row">
 
 
-<div class="col-md-3 col-sm-6">
+<div class="col-md-3 col-sm-6 mt-3">
 <div class="footer-info-single">
-<h2 class="title">Help Center</h2>
+<h2 class="title footer-font-weight">Help Center</h2>
 <ul class="list-unstyled">
-    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> How to Pay</a></li>
+    <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> Test</a></li>
     <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> FAQ's</a></li>
     <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> About Us</a></li>
     <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> About Us</a></li>
@@ -110,9 +108,9 @@
 </div>
 </div>
 
-<div class="col-md-3 col-sm-6">
+<div class="col-md-3 col-sm-6 mt-3">
 <div class="footer-info-single">
-<h2 class="title">Customer information</h2>
+<h2 class="title footer-font-weight">Customer information</h2>
 <ul class="list-unstyled">
     <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> About Us</a></li>
     <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> FAQ's</a></li>
@@ -123,9 +121,9 @@
 </div>
 </div>
 
-<div class="col-md-3 col-sm-6">
+<div class="col-md-3 col-sm-6 mt-3">
 <div class="footer-info-single">
-<h2 class="title">Security & privacy</h2>
+<h2 class="title footer-font-weight">Security & privacy</h2>
 <ul class="list-unstyled">
     <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> Terms Of Use</a></li>
     <li><a href="#" title=""><i class="fa fa-angle-double-right"></i> Privacy Policy</a></li>
@@ -134,10 +132,10 @@
 </div>
 </div>
 
-<div class="col-md-3 col-sm-6">
+<div class="col-md-3 col-sm-6 mt-3">
 <div class="footer-info-single">
     <ul class="list-inline text-center">
-    <h2 class="title">Let's connect!</h2>
+    <h2 class="title footer-font-weight">Let's connect!</h2>
     <li><a href="#" title=""><i class="fa-brands fa-instagram"></i></a></li>
     <li><a href="#" title=""><i class="fa-brands fa-twitter"></i></a></li>
     <li><a href="#" title=""><i class="fa-brands fa-facebook"></i></a></li>
