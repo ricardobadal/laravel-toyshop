@@ -99,10 +99,10 @@
 <div class="footer-info-single">
 <h2 class="title footer-font-weight">Help Center</h2>
 <ul class="list-unstyled">
-    <li><a href="#" title=""><i class=></i> Test</a></li>
-    <li><a href="#" title=""><i class=></i> FAQ's</a></li>
-    <li><a href="#" title=""><i class=></i> About Us</a></li>
-    <li><a href="#" title=""><i class=></i> About Us</a></li>
+    <li><a href="#"></i> Test</a></li>
+    <li><a href="#"></i> FAQ's</a></li>
+    <li><a href="#"></i> About Us</a></li>
+    <li><a href="#"></i> About Us</a></li>
 
 </ul>
 </div>
@@ -112,10 +112,10 @@
 <div class="footer-info-single">
 <h2 class="title footer-font-weight">Customer information</h2>
 <ul class="list-unstyled">
-    <li><a href="#" title=""><i class=></i> About Us</a></li>
-    <li><a href="#" title=""><i class=></i> FAQ's</a></li>
-    <li><a href="#" title=""><i class=></i> Sustainability</a></li>
-    <li><a href="" title=""><i class=></i> Contact Us</a></li>
+    <li><a href="#"></i> About Us</a></li>
+    <li><a href="#"></i> FAQ's</a></li>
+    <li><a href="#"></i> Sustainability</a></li>
+    <li><a href="#"></i> Contact Us</a></li>
 
 </ul>
 </div>
@@ -125,9 +125,9 @@
 <div class="footer-info-single">
 <h2 class="title footer-font-weight">Security & privacy</h2>
 <ul class="list-unstyled">
-    <li><a href="#" title=""><i class=></i> Terms Of Use</a></li>
-    <li><a href="#" title=""><i class=></i> Privacy Policy</a></li>
-    <li><a href="#" title=""><i class=></i> Test</a></li>
+    <li><a href="#"></i> Terms Of Use</a></li>
+    <li><a href="#"></i> Privacy Policy</a></li>
+    <li><a href="#"></i> Test</a></li>
 </ul>
 </div>
 </div>
@@ -136,9 +136,9 @@
 <div class="footer-info-single">
     <ul class="list-inline text-center">
     <h2 class="title footer-font-weight">Let's connect!</h2>
-    <li><a href="#" title=""><i class="fa-brands fa-instagram"></i></a></li>
-    <li><a href="#" title=""><i class="fa-brands fa-twitter"></i></a></li>
-    <li><a href="#" title=""><i class="fa-brands fa-facebook"></i></a></li>
+    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
 
     </div>
     </ul>
