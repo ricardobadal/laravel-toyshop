@@ -43,7 +43,7 @@
                 </ul>
                     <li class="nav-item"><a class="nav-link nav-button" href="{{ route('home.contact') }}">Contact</a></li>
                     <li class="nav-item"><a class="nav-link nav-button" href="{{ route('home.about') }}">About Us</a></li>
-                    <li class="nav-item dropdown"><a class="nav-link nav-button dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Account</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link nav-button dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Account</a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 
                 @guest
