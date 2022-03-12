@@ -29,8 +29,8 @@
                     </header>
                 </div>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="{{ url('/') }}"><img src="logo_small_icon_only.png" alt="" width="100" height="100"></a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light m-10">
+            <a class="navbar-brand" href="{{ url('/') }}"><img src="logo_small_icon_only.png" alt="" width="90" height="100"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -92,7 +92,7 @@
   <hr> 
 <footer id="footerimage" class="nb-footer">
 <div class="container">
-<div class="row">
+<div class="row bg-transparent text-dark">
 
 
 <div class="col-md-3 col-sm-6 mt-3">
