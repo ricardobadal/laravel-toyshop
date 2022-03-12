@@ -95,7 +95,7 @@
 <div class="row bg-transparent text-dark">
 
 
-<div class="col-md-3 col-sm-6 mt-3">
+<div class="col-md-3 col-sm-6 mt-4">
 <div class="footer-info-single">
 <h2 class="title footer-font-weight">Help Center</h2>
 <ul class="list-unstyled">
@@ -108,7 +108,7 @@
 </div>
 </div>
 
-<div class="col-md-3 col-sm-6 mt-3">
+<div class="col-md-3 col-sm-6 mt-4">
 <div class="footer-info-single">
 <h2 class="title footer-font-weight">Customer information</h2>
 <ul class="list-unstyled">
@@ -121,7 +121,7 @@
 </div>
 </div>
 
-<div class="col-md-3 col-sm-6 mt-3">
+<div class="col-md-3 col-sm-6 mt-4">
 <div class="footer-info-single">
 <h2 class="title footer-font-weight">Security & privacy</h2>
 <ul class="list-unstyled">
@@ -132,7 +132,7 @@
 </div>
 </div>
 
-<div class="col-md-3 col-sm-6 mt-3">
+<div class="col-md-3 col-sm-6 mt-4">
 <div class="footer-info-single">
     <ul class="list-inline text-center">
     <h2 class="title footer-font-weight">Let's connect!</h2>
