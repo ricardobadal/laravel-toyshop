@@ -27713,6 +27713,16 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/css/app.css":
+/*!*******************************!*\
+  !*** ./resources/css/app.css ***!
+  \*******************************/
+/***/ (() => {
+
+throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nModuleBuildError: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):\nTypeError: Cannot read property 'config' of undefined\n    at getTailwindConfig (/home/codegorilla/sites/collab1/node_modules/tailwindcss/lib/lib/setupTrackingContext.js:81:62)\n    at /home/codegorilla/sites/collab1/node_modules/tailwindcss/lib/lib/setupTrackingContext.js:124:92\n    at /home/codegorilla/sites/collab1/node_modules/tailwindcss/lib/processTailwindFeatures.js:43:11\n    at plugins (/home/codegorilla/sites/collab1/node_modules/tailwindcss/lib/index.js:20:104)\n    at LazyResult.runOnRoot (/home/codegorilla/sites/collab1/node_modules/postcss/lib/lazy-result.js:339:16)\n    at LazyResult.runAsync (/home/codegorilla/sites/collab1/node_modules/postcss/lib/lazy-result.js:393:26)\n    at LazyResult.async (/home/codegorilla/sites/collab1/node_modules/postcss/lib/lazy-result.js:221:30)\n    at LazyResult.then (/home/codegorilla/sites/collab1/node_modules/postcss/lib/lazy-result.js:206:17)\n    at processResult (/home/codegorilla/sites/collab1/node_modules/webpack/lib/NormalModule.js:758:19)\n    at /home/codegorilla/sites/collab1/node_modules/webpack/lib/NormalModule.js:860:5\n    at /home/codegorilla/sites/collab1/node_modules/loader-runner/lib/LoaderRunner.js:399:11\n    at /home/codegorilla/sites/collab1/node_modules/loader-runner/lib/LoaderRunner.js:251:18\n    at context.callback (/home/codegorilla/sites/collab1/node_modules/loader-runner/lib/LoaderRunner.js:124:13)\n    at Object.loader (/home/codegorilla/sites/collab1/node_modules/postcss-loader/dist/index.js:142:7)");
+
+/***/ }),
+
 /***/ "./node_modules/process/browser.js":
 /*!*****************************************!*\
   !*** ./node_modules/process/browser.js ***!
@@ -40358,7 +40368,8 @@ Vue.compile = compileToFunctions;
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
 /******/ 	__webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/sass/app.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/sass/app.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/css/app.css")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
