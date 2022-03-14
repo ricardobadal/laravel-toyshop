@@ -14,9 +14,9 @@ class ProductsTableSeeder extends Seeder
     public function run()
     {
         //
-         DB::table('products')->insert([
+        DB::table('products')->insert([
 
-          'productname' =>('plush mushroom'),
+            'productname' =>('plush mushroom'),
             'price' =>('22.99'),
             'product_category_id' => ('1'),
             'new' => (false),
@@ -28,10 +28,9 @@ class ProductsTableSeeder extends Seeder
             'created_at' => now()->format('Y-m-d H:i:s')
         ]);
 
-
         DB::table('products')->insert([
 
-          'productname' =>('angry Duck'),
+            'productname' =>('angry Duck'),
             'price' =>('22.99'),
             'product_category_id' => ('1'),
             'new' => (false),
@@ -43,10 +42,9 @@ class ProductsTableSeeder extends Seeder
             'created_at' => now()->format('Y-m-d H:i:s')
         ]);
 
-
         DB::table('products')->insert([
 
-          'productname' =>('green dragon'),
+            'productname' =>('green dragon'),
             'price' =>('24.99'),
             'product_category_id' => ('1'),
             'new' => (false),
@@ -58,10 +56,9 @@ class ProductsTableSeeder extends Seeder
             'created_at' => now()->format('Y-m-d H:i:s')
         ]);
 
-
         DB::table('products')->insert([
 
-          'productname' =>('lion puzzle'),
+            'productname' =>('lion puzzle'),
             'price' =>('23.99'),
             'product_category_id' => ('2'),
             'new' => (false),
@@ -73,10 +70,9 @@ class ProductsTableSeeder extends Seeder
             'created_at' => now()->format('Y-m-d H:i:s')
         ]);
 
-
         DB::table('products')->insert([
 
-          'productname' =>('plush cheese'),
+            'productname' =>('plush cheese'),
             'price' =>('27.99'),
             'product_category_id' => ('1'),
             'new' => (false),
@@ -88,10 +84,9 @@ class ProductsTableSeeder extends Seeder
             'created_at' => now()->format('Y-m-d H:i:s')
         ]);
 
-
         DB::table('products')->insert([
 
-          'productname' =>('musical toy'),
+            'productname' =>('musical toy'),
             'price' =>('21.99'),
             'product_category_id' => ('1'),
             'new' => (false),
@@ -103,10 +98,9 @@ class ProductsTableSeeder extends Seeder
             'created_at' => now()->format('Y-m-d H:i:s')
         ]);
 
-
         DB::table('products')->insert([
 
-          'productname' =>('plush elephant'),
+            'productname' =>('plush elephant'),
             'price' =>('22.99'),
             'product_category_id' => ('1'),
             'new' => (false),
@@ -120,7 +114,7 @@ class ProductsTableSeeder extends Seeder
 
         DB::table('products')->insert([
 
-          'productname' =>('plush tiger'),
+            'productname' =>('plush tiger'),
             'price' =>('22.99'),
             'product_category_id' => ('1'),
             'new' => (false),
@@ -134,7 +128,7 @@ class ProductsTableSeeder extends Seeder
 
         DB::table('products')->insert([
 
-          'productname' =>('teething keys'),
+            'productname' =>('teething keys'),
             'price' =>('22.99'),
             'product_category_id' => ('1'),
             'new' => (false),
@@ -146,10 +140,9 @@ class ProductsTableSeeder extends Seeder
             'created_at' => now()->format('Y-m-d H:i:s')
         ]);
 
-
         DB::table('products')->insert([
 
-          'productname' =>('wooden bear clock'),
+            'productname' =>('wooden bear clock'),
             'price' =>('22.99'),
             'product_category_id' => ('1'),
             'new' => (false),
@@ -161,10 +154,9 @@ class ProductsTableSeeder extends Seeder
             'created_at' => now()->format('Y-m-d H:i:s')
         ]);
 
-
         DB::table('products')->insert([
 
-          'productname' =>('sloth blanket'),
+            'productname' =>('sloth blanket'),
             'price' =>('22.99'),
             'product_category_id' => ('1'),
             'new' => (false),
@@ -178,7 +170,7 @@ class ProductsTableSeeder extends Seeder
 
         DB::table('products')->insert([
 
-          'productname' =>('plush cow'),
+            'productname' =>('plush cow'),
             'price' =>('22.99'),
             'product_category_id' => ('1'),
             'new' => (false),
@@ -192,7 +184,7 @@ class ProductsTableSeeder extends Seeder
 
         DB::table('products')->insert([
 
-          'productname' =>('puzzle mat'),
+            'productname' =>('puzzle mat'),
             'price' =>('27.99'),
             'product_category_id' => ('1'),
             'new' => (false),
@@ -204,11 +196,9 @@ class ProductsTableSeeder extends Seeder
             'created_at' => now()->format('Y-m-d H:i:s')
         ]);
 
-
-
         DB::table('products')->insert([
 
-          'productname' =>('plush coffee'),
+            'productname' =>('plush coffee'),
             'price' =>('22.99'),
             'product_category_id' => ('1'),
             'new' => (false),
@@ -222,7 +212,7 @@ class ProductsTableSeeder extends Seeder
 
         DB::table('products')->insert([
 
-          'productname' =>('plush cauliflower'),
+            'productname' =>('plush cauliflower'),
             'price' =>('22.99'),
             'product_category_id' => ('1'),
             'new' => (false),
@@ -234,10 +224,9 @@ class ProductsTableSeeder extends Seeder
             'created_at' => now()->format('Y-m-d H:i:s')
         ]);
 
+        DB::table('products')->insert([
 
-DB::table('products')->insert([
-
-          'productname' =>('grogu backpack'),
+            'productname' =>('grogu backpack'),
             'price' =>('22.99'),
             'product_category_id' => ('1'),
             'new' => (false),
@@ -251,7 +240,7 @@ DB::table('products')->insert([
 
         DB::table('products')->insert([
 
-          'productname' =>('grogu'),
+            'productname' =>('grogu'),
             'price' =>('22.99'),
             'product_category_id' => ('1'),
             'new' => (false),
@@ -265,7 +254,7 @@ DB::table('products')->insert([
 
         DB::table('products')->insert([
 
-          'productname' =>('plush polarbear'),
+            'productname' =>('plush polarbear'),
             'price' =>('22.99'),
             'product_category_id' => ('1'),
             'new' => (false),
@@ -279,7 +268,7 @@ DB::table('products')->insert([
 
         DB::table('products')->insert([
 
-          'productname' =>('pooh blanket'),
+            'productname' =>('pooh blanket'),
             'price' =>('22.99'),
             'product_category_id' => ('1'),
             'new' => (false),
@@ -293,7 +282,7 @@ DB::table('products')->insert([
 
         DB::table('products')->insert([
 
-          'productname' =>('black plush bat'),
+            'productname' =>('black plush bat'),
             'price' =>('22.99'),
             'product_category_id' => ('1'),
             'new' => (false),

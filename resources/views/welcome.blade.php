@@ -7,7 +7,6 @@
 
 {{-- with an if statement to see if product is on sale. Sale page perhaps carrousel or something with a click for more button to nagivate to sale page --}}
 
-
 <div class="container">
     <div class="row">
         @foreach ($products as $product)
@@ -24,10 +23,6 @@
         @endforeach
     </div>
 </div>
-
-
-
-
 
 @endsection
 

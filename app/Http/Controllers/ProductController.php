@@ -13,26 +13,12 @@ class ProductController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    private static function getData() {
-        return [
-            ['id' => 1, 'name' => 'firstproduct', 'price' => 14.99],
-            ['id' => 2, 'name' => 'secondproduct', 'price' => 9.99],
-        ];
-    }
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
 
     public function index()
     {
         $products = DB::select('select * from products');
         return view('products.index', ['products'=>$products]);
     }
-
-
-
 
     /**
      * Show the form for creating a new resource.

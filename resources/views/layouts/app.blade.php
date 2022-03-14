@@ -9,14 +9,13 @@
 
         <title>@yield('title')</title>
         
-        <!-- Scripts -->
+        <!-- Scripts --> 
         <script src="{{ asset('js/app.js') }}" defer></script>
 
         <!-- Styles -->
         
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     </head>
-
 
     <body>
         <div id="app">
@@ -87,75 +86,65 @@
         </main>
     </div>
 
+<hr> 
+    <footer id="footerimage" class="nb-footer">
+        <div class="container">
+            <div class="row bg-transparent text-dark">
+                <div class="col-md-3 col-sm-6 mt-4">
+                    <div class="footer-info-single">
+                        <h2 class="title footer-font-weight">Help Center</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#"></i> Test</a></li>
+                            <li><a href="#"></i> FAQ's</a></li>
+                            <li><a href="#"></i> About Us</a></li>
+                        </ul>
+                    </div>
+                </div>
 
- 
-  <hr> 
-<footer id="footerimage" class="nb-footer">
-<div class="container">
-<div class="row bg-transparent text-dark">
+                <div class="col-md-3 col-sm-6 mt-4">
+                    <div class="footer-info-single">
+                        <h2 class="title footer-font-weight">Customer information</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#"></i> About Us</a></li>
+                            <li><a href="#"></i> FAQ's</a></li>
+                            <li><a href="#"></i> Sustainability</a></li>
+                            <li><a href="#"></i> Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
 
+                <div class="col-md-3 col-sm-6 mt-4">
+                    <div class="footer-info-single">
+                        <h2 class="title footer-font-weight">Security & privacy</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#"></i> Terms Of Use</a></li>
+                            <li><a href="#"></i> Privacy Policy</a></li>
+                            <li><a href="#"></i> Test</a></li>
+                        </ul>
+                    </div>
+                </div>
 
-<div class="col-md-3 col-sm-6 mt-4">
-<div class="footer-info-single">
-<h2 class="title footer-font-weight">Help Center</h2>
-<ul class="list-unstyled">
-    <li><a href="#"></i> Test</a></li>
-    <li><a href="#"></i> FAQ's</a></li>
-    <li><a href="#"></i> About Us</a></li>
-    <li><a href="#"></i> About Us</a></li>
+                <div class="col-md-3 col-sm-6 mt-4">
+                    <div class="footer-info-single">
+                        <h2 class="title footer-font-weight">Let's connect!</h2>
+                        <ul class="list-inline text-center">
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
 
-</ul>
-</div>
-</div>
-
-<div class="col-md-3 col-sm-6 mt-4">
-<div class="footer-info-single">
-<h2 class="title footer-font-weight">Customer information</h2>
-<ul class="list-unstyled">
-    <li><a href="#"></i> About Us</a></li>
-    <li><a href="#"></i> FAQ's</a></li>
-    <li><a href="#"></i> Sustainability</a></li>
-    <li><a href="#"></i> Contact Us</a></li>
-
-</ul>
-</div>
-</div>
-
-<div class="col-md-3 col-sm-6 mt-4">
-<div class="footer-info-single">
-<h2 class="title footer-font-weight">Security & privacy</h2>
-<ul class="list-unstyled">
-    <li><a href="#"></i> Terms Of Use</a></li>
-    <li><a href="#"></i> Privacy Policy</a></li>
-    <li><a href="#"></i> Test</a></li>
-</ul>
-</div>
-</div>
-
-<div class="col-md-3 col-sm-6 mt-4">
-<div class="footer-info-single">
-    <ul class="list-inline text-center">
-    <h2 class="title footer-font-weight">Let's connect!</h2>
-    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-
-    </div>
-    </ul>
-</div>
-
-
-
-    <div class="container">
-        <div class="row">
-        <div class="col">
-        <p class="text-center">Copyright © 2022. ToyShop B.V.</p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-center">Copyright © 2022. ToyShop B.V.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        </div>
-        </div>
-        </div>
-
-</footer>
+    </footer>
 
 
 
