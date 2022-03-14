@@ -7,8 +7,6 @@ use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ContactController;
 
 
-
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
